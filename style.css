@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading{
+    font-size: 2rem;
+    margin: 50px;
+    text-align: center;
+}
+
+.board{
+    display: flex; 
+    justify-content: space-around;
+    padding: 10px;;
+}
+
+.column{
+    width: 30%;
+    border: 2px solid  grey;
+    padding: 10px;
+    text-align: center;
+    min-height: 400px;
+    border-radius: 6px;
+}
+
+.card{
+    background-color: rgb(28, 135, 152);
+    padding: 10px;
+    margin: 10px;
+    color: wheat;
+    border-radius: 4px;
+}
+
+#addCard{
+    padding: 7px;
+    background-color: rgb(20, 126, 158);
+    color: wheat;
+    border: 2px solid rgb(10, 87, 112);
+    border-radius: 4px;
+}
+
+#addCard:hover{
+    border: 2px solid rgb(237, 168, 100);
+}
